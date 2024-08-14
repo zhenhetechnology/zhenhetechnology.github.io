@@ -6,14 +6,14 @@
     <title>ZHENHE (HONG KONG) TECHNOLOGY LIMITED</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f8ff;
             color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #ff6347;
             padding: 20px;
             text-align: center;
             color: white;
@@ -31,14 +31,14 @@
             text-decoration: none;
         }
         nav a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #ff6347;
+            color: white;
         }
         section {
             padding: 20px;
             margin: 20px;
             background-color: white;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
@@ -50,42 +50,71 @@
             width: 100%;
             bottom: 0;
         }
+        .games-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .game-item {
+            width: 45%;
+            background-color: #f8f8ff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .game-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
 
     <header>
         <h1>ZHENHE (HONG KONG) TECHNOLOGY LIMITED</h1>
-        <p>Innovative Technology Solutions</p>
+        <p>Bringing Fun and Joy to Everyone, Everywhere</p>
     </header>
 
     <nav>
         <a href="#home">首页</a>
         <a href="#about">关于我们</a>
-        <a href="#services">服务</a>
+        <a href="#games">我们的游戏</a>
         <a href="#contact">联系我们</a>
     </nav>
 
     <section id="home">
         <h2>欢迎来到ZHENHE (HONG KONG) TECHNOLOGY LIMITED</h2>
-        <p>我们致力于提供创新的技术解决方案，帮助企业在现代市场中取得成功。探索我们的网站，了解我们的服务和解决方案。</p>
+        <p>我们是一家致力于开发高品质休闲游戏的公司，为全球玩家带来欢乐与乐趣。无论您在哪里，我们的游戏都能为您带来轻松愉快的体验。</p>
     </section>
 
     <section id="about">
         <h2>关于我们</h2>
-        <p>ZHENHE (HONG KONG) TECHNOLOGY LIMITED 是一家领先的科技公司，总部位于香港。我们专注于提供定制化的技术解决方案，覆盖多个行业，包括金融、医疗、制造业等。</p>
+        <p>ZHENHE (HONG KONG) TECHNOLOGY LIMITED 是一家专注于开发创新休闲游戏的科技公司。我们汇集了最具创意的团队，致力于为不同年龄段的玩家提供最有趣的游戏体验。</p>
     </section>
 
-    <section id="services">
-        <h2>我们的服务</h2>
-        <p>我们提供广泛的服务，包括软件开发、IT咨询、系统集成和数据分析等。无论您的业务需求是什么，我们都有合适的解决方案。</p>
+    <section id="games">
+        <h2>我们的游戏</h2>
+        <div class="games-list">
+            <div class="game-item">
+                <h3>游戏1: 快乐农场</h3>
+                <img src="farm-game.jpg" alt="快乐农场">
+                <p>在这个轻松愉快的农场游戏中，体验种植和收获的乐趣！</p>
+            </div>
+            <div class="game-item">
+                <h3>游戏2: 旋转水果</h3>
+                <img src="fruit-game.jpg" alt="旋转水果">
+                <p>匹配水果，旋转消除，享受每一次连击带来的快感！</p>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
         <h2>联系我们</h2>
-        <p>地址: 香港特别行政区中环街道1号</p>
-        <p>电话: +852 1234 5678</p>
-        <p>电子邮件: info@zhenhehk.com</p>
+        <p>地址: FLAT A, 12/F，GOLDEN CROWNCOURT, 70 NATHAN ROAD.KOWLOON.HONG KONG</p>
+        <p>电话: +852 6841 1552 </p>
+        <p>电子邮件: zhenhetechnology@gmail.com
+</p>
     </section>
 
     <footer>
